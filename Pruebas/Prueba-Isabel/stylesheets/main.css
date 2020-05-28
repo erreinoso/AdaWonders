@@ -1,7 +1,11 @@
 :root {
+  /*COLORS*/
   --primary-color: #099d8d;
   --secondary-color: #14d9c4;
   --light-color: #ffffff;
+  --font-color: #000000;
+  --copyright-color: #b8b8b9;
+  --paragraph-color: #54585a;
 }
 
 body {
@@ -43,7 +47,8 @@ article {
 .names {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
-  color: black;
+  color: var(--font-color);
+  margin: 0px;
 }
 
 .descriptions {
@@ -52,7 +57,7 @@ article {
   text-align: center;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  color: #54585a;
+  color: var(--paragraph-color);
   border: 1px solid black;
   display: flex;
   flex-direction: column;
