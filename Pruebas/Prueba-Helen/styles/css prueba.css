@@ -35,8 +35,8 @@
   width: 30px;
   height: 30px;
   position: absolute;
-  margin:0;
-  transform: translate(0%,-50%) rotate(45deg) ;
+  margin: 0;
+  transform: translate(0%, -50%) rotate(45deg);
   background-color: white;
   flex-direction: column;
 }
@@ -45,14 +45,15 @@
   background-color: var(--copyright-color); /*poner opacidad*/
   align-items: center;
 }
+
 h2 {
   width: 100%;
   color: var(--primary-color);
   font-family: "Rubik", sans-serif;
+}
 
-.qualities div h3 {
+h3 {
   width: 100%;
-  background-color: var(--copyright-color); /*poner opacidad*/
   color: var(--primary-color);
   font-family: "Rubik", sans-serif;
 }
