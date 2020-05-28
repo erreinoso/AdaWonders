@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  color: inherit;
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  width: 320px;
+  flex-direction: column;
+}
+
+:root {
+  /*COLORS*/
+  --primary-color: #099d8d;
+  --secondary-color: #14d9c4;
+  --light-color: white;
+  --font-color: #000000;
+  --copyright-color: #b8b8b9;
+  --paragraph-color: #54585a;
+
+  /*FONTS*/
+  --primary-font: Rubik, OpenSans;
+}
+
+html {
+  font-family: ;
+  font-family: var(--primary-font);
+  font-size: 16px;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.team {
+  width: 320px;
+  background-color: var(--light-color);
+}
+
+h2 {
+  width: 320px;
+  background-color: var(--light-color);
+  color: var(--primary-color);
+}
+
+p {
+  width: 290px;
+  /* 
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center; */
+  font-family: "Open Sans", sans-serif;
+  color: var(--paragraph-color);
+}
+
+.div2 {
+  width: 320px;
+  /* opacity: 0.2; */
+  background-color: var(--copyright-color);
+  font-family: "Rubik", sans-serif;
+}
+
+.div2 div h3 {
+  width: 290px;
+  /* height: 45px;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.05;
+  letter-spacing: normal;
+  text-align: center; */
+  font-family: Rubik;
+  color: var(--primary-color);
+}
+.div2 p {
+  width: 290px;
+  /* 
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.05;
+  letter-spacing: normal;
+  text-align: center; */
+  font-family: Rubik;
+  color: var(--paragraph-color);
+}
+
+section {
+  align-items: center;
+  text-align: center;
+}
