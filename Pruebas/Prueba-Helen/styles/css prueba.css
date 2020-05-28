@@ -30,10 +30,29 @@
   background-color: var(--light-color);
 }
 
-h2,
-h3 {
+.littlesquare {
+  border: 1px solid black; /*temporal*/
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin:0;
+  transform: translate(0%,-50%) rotate(45deg) ;
+  background-color: white;
+  flex-direction: column;
+}
+
+.qualities {
+  background-color: var(--copyright-color); /*poner opacidad*/
+  align-items: center;
+}
+h2 {
   width: 100%;
-  background-color: var(--light-color);
+  color: var(--primary-color);
+  font-family: "Rubik", sans-serif;
+
+.qualities div h3 {
+  width: 100%;
+  background-color: var(--copyright-color); /*poner opacidad*/
   color: var(--primary-color);
   font-family: "Rubik", sans-serif;
 }
