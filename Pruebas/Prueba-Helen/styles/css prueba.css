@@ -6,7 +6,7 @@
   flex-direction: column; /*REVISAR*/
   list-style-type: none; /*REVISAR*/
   padding: 0px;
-  border: 1px solid black; /* temporal */
+  /* border: 1px solid black; temporal */
   font-family: var(--primary-font);
   font-size: 16px; /*REVISAR*/
   text-align: center;
@@ -25,13 +25,15 @@
   --primary-font: "Rubik", sans-serif;
   --secundary-font: "Open Sans", sans-serif;
 }
-
+.main {
+  padding: 15px;
+}
 .team-section {
   background-color: var(--light-color);
 }
 
 .littlesquare {
-  border: 1px solid black; /*temporal*/
+  /*border: 1px solid black; temporal*/
   width: 30px;
   height: 30px;
   position: absolute;
@@ -42,7 +44,7 @@
 }
 
 .qualities {
-  background-color: var(--copyright-color); /*poner opacidad*/
+  background-color: rgba(184, 184, 185, 0.2);
   align-items: center;
 }
 
@@ -63,6 +65,7 @@ p {
   color: var(--paragraph-color);
   width: 100%;
   text-align: center;
+  padding: 15px;
 }
 
 .element {
