@@ -1,13 +1,7 @@
 * {
   box-sizing: border-box;
   color: inherit;
-}
-
-@font-face {
-  font-family: "Rubik", sans-serif;
-  src: (
-    url "https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap"
-  );
+  border: red, solid, 2px;
 }
 
 :root {
@@ -17,11 +11,12 @@
   --secondary-color: #14d9c4;
   /* FONTS*/
   --primary-font: "Rubik", sans-serif;
+  --secundary-font: "Open Sans", sans-serif;
 }
 
-html {
+/*html {
   font-family: Arial, Helvetica, sans-serif;
-}
+}*/
 
 .team {
   display: flex;
@@ -33,19 +28,35 @@ html {
 .weaknesses h3 {
   color: var(--primary-color);
   text-align: center;
+  font-family: var(--primary-font);
 }
 
 .strengths p,
 .weaknesses p {
   color: var(--text-color);
   text-align: center;
+  font-family: var(--secundary-font);
 }
 
 .container {
-  background: #b8b8b9;
+  background-color: rgba(184, 184, 185, 0.2);
   padding: 0 15px;
+  position: relative;
 }
 
 .group h2 {
   color: var(--secondary-color);
+  font-family: var(--primary-font);
+}
+
+.littlesquare {
+  border: 1px solid black; /*temporal*/
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin: 0;
+  transform: translate(50%, -50%) rotate(45deg);
+  right: 50%;
+  background-color: white;
+  flex-direction: column;
 }
