@@ -8,8 +8,14 @@
   --paragraph-color: #54585a;
 }
 * {
-  border: 1px solid red;
   text-decoration: none;
+  list-style-type: none;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+  padding: 15px;
 }
 body {
   width: 100%;
@@ -82,4 +88,29 @@ body {
   color: var(--primary-color);
   font-weight: bold;
   font-size: 25px;
+}
+
+/**FOOTER**/
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  color: var(--copyright-color);
+  font-size: 14px;
+}
+.footer-menu {
+  color: var(--paragraph-color);
+  text-align: center;
+}
+
+.footer-logo {
+  width: 115.9px;
+  height: 45px;
+}
+.footer-logo img {
+  width: 100%;
 }
