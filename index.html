@@ -5,15 +5,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AdaWonders Team </title>
-  <link rel="stylesheet" href="stylesheets/reset.css">
-  <link rel="stylesheet" href="stylesheets/main.css">
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./stylesheets/reset.css">
+  <link rel="stylesheet" href="./stylesheets/main.css">
   <script src="https://kit.fontawesome.com/c75582e3c5.js" crossorigin="anonymous"></script>
-
 </head>
-
 <body>
   <div class="wrapper">
     <header class="header">
@@ -21,10 +19,10 @@
       <nav class="menu">
         <ul class="header-menu">
           <li>
-            <a href="#" title="Equipo">EQUIPO</a>
+            <a href="#team-title" title="Equipo">EQUIPO</a>
           </li>
           <li>
-            <a href="#" title="Quiénes somos">QUIÉNES SOMOS </a>
+            <a href="#members" title="Quiénes somos">QUIÉNES SOMOS </a>
           </li>
           <li>
             <a href="#" title="Contacto">CONTACTO</a>
@@ -45,7 +43,7 @@
 
       <section class="team">
         <div>
-          <h2 class="team-title">EQUIPO</h2>
+          <h2 class="team-title" id="team-title">EQUIPO</h2>
           <p>
             Decidieron despegar como desarrolladoras para hacer de tu marca algo extraordinario. Tienen una excelente
             comunicación y todas las herramientas para ofrecer distintas soluciones a distintas necesidades.
@@ -54,7 +52,7 @@
 
         <div class="container">
           <div class="littlesquare"></div>
-          <div class="strengths">
+          <article class="strengths">
             <h3>Fortalezas</h3>
             <p>
               Su filosofía de trabajo se basa en la mejora y aprendizaje continuo,
@@ -63,23 +61,21 @@
               de comunicación y sus ganas de aprender nuevas herramientas de
               trabajo han logrado que aprendan HTML y CSS.
             </p>
-          </div>
-          <div class="weaknesses">
+          </article>
+          <article class="weaknesses">
             <h3>Debilidades</h3>
             <p>
               La falta de experiencia hace que queden muchas cosas que mejorar y
               en las que profundizar. En esta desventaja ellas ven tan solo nuevas
               oportunidades, curiosidad y ganas de aprender.
             </p>
-          </div>
+          </article>
         </div>
-
-        <article>
-          <section class="members">
+        <section class="members" id="members">
             <h2 class="who-we-are">QUIÉNES SOMOS</h2>
             <article>
               <div class="photos">
-                <img class="photo" src="images/recortadas/img_elenag(recortada).jpg" alt="fotoelenag">
+                <img class="photo" src="./images/recortadas/img_elenag(recortada).jpg" alt="foto de perfil de Elena Gallego">
               </div>
               <div class="descriptions">
                 <h3 class="names">Elena Gallego</h3>
@@ -89,32 +85,32 @@
                   Superpoderes: capaz de convertir una debilidad en una fortaleza, es comprometida, curiosa, ágil y le
                   encanta trabajar en equipo.
                 </p>
-              </div>
-              <div class="social-media">
-                <ul class="logos">
-                  <li>
-                    <a href="" title="ir a linkedin de Elena Gallego">
+              
+               <div class="social-media">
+                 <ul class="logos">
+                   <li>
+                     <a href="https://www.linkedin.com/in/elena-gallego-b463191ab/" title="ir a linkedin de Elena Gallego">
                       <i class="fab fa-linkedin-in" title="linkedin"></i></a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/Elena-Gallego" title="ir a github de Elena Gallego">
+                   </li>
+                   <li>
+                     <a href="https://github.com/Elena-Gallego" title="ir a github de Elena Gallego">
                       <i class="fab fa-github-alt"></i></a>
-                  </li>
-                  <li>
-                    <a href="mailto: @gmail.com" title="mandar correo a Elena Gallego">
+                   </li>
+                   <li>
+                     <a href="mailto:elenagallego.front@gmail.com" title="mandar correo a Elena Gallego">
                       <i class="fas fa-envelope"></i></a>
-                  </li>
-                  <li>
-                    <a href="" title="ir a twitter de Elena Gallego">
+                   </li>
+                   <li>
+                     <a href="https://twitter.com/FrontGallego" title="ir a twitter de Elena Gallego">
                       <i class="fab fa-twitter"></i></a>
                   </li>
-                </ul>
-
+                 </ul>
+               </div>
               </div>
             </article>
             <article>
               <div class="photos">
-                <img class="photo" src="images/recortadas/img_elenar(recor).jpg" alt="fotoelenar" />
+                <img class="photo" src="./images/recortadas/img_elenar(recor).jpg" alt="foto de perfil de Elena Ramírez" />
               </div>
               <div class="descriptions">
                 <h3 class="names">Elena Ramírez</h3>
@@ -140,7 +136,7 @@
                         <i class="fas fa-envelope"></i></a>
                     </li>
                     <li>
-                      <a href="" title="ir a twitter de Elena Ramírez">
+                      <a href="https://twitter.com/_ElenaRReinoso" title="ir a twitter de Elena Ramírez">
                         <i class="fab fa-twitter"></i></a>
                     </li>
                   </ul>
@@ -149,7 +145,7 @@
             </article>
             <article>
               <div class="photos">
-                <img class="photo" src="images/recortadas/img_isa(recor).jpg" alt="fotoisabel" />
+                <img class="photo" src="./images/recortadas/img_isa(recor).jpg" alt="foto de perfil de Isabel Olivares" />
               </div>
               <div class="descriptions">
                 <h3 class="names">Isabel Olivares</h3>
@@ -162,15 +158,15 @@
                 <div class="social-media">
                   <ul class="logos">
                     <li>
-                      <a href=" " title="ir a linkedin de Isabel Olivares">
+                      <a href="https://www.linkedin.com/in/isabel-olivares-roldán-a6057019a" title="ir a linkedin de Isabel Olivares">
                         <i class="fab fa-linkedin-in" title="linkedin"></i></a>
                     </li>
                     <li>
-                      <a href=" " title="ir a github de Isabel Olivares">
+                      <a href="https://github.com/IsabelOlivaresR" title="ir a github de Isabel Olivares">
                         <i class="fab fa-github-alt"></i></a>
                     </li>
                     <li>
-                      <a href="mailto:" title="mandar correo a Isabel Olivares">
+                      <a href="mailto:isabel.olivares6@gmail.com" title="mandar correo a Isabel Olivares">
                         <i class="fas fa-envelope"></i></a>
                     </li>
                     <li>
@@ -183,14 +179,12 @@
             </article>
             <article>
               <div class="photos">
-                <img class="photo" src="images/recortadas/img_marian(recor).jpg" alt="MdelaOsa" />
+                <img class="photo" src="./images/recortadas/img_marian(recor).jpg" alt="Foto de perfil de Marián de la Osa" />
               </div>
               <div class="descriptions">
                 <h3 class="names">Marián de la Osa</h3>
-                <p> Es Junior en desarrollo de páginas Web. Posee experiencia en React, Agile y ha trabajado con éxito
-                  en
-                  remoto y con las herramienteas Git y Trello. Superpoder: Tiene mucha creatividad, capacidad rápida
-                  adaptación y es una gran trabajadora en equipo.</p>
+                <p> Empezó su vida laboral como una gran maestra de educación infantil y primaria pero ha decidido dar un giro y, en poco tiempo; se ha convertido en Junior en desarrollo de páginas Web. Posee experiencia en React, Agile y ha trabajado con éxito en remoto y con las herramienteas Git y Trello.
+                Súperpoder: desbordar creatividad, una rápida capacidad de adaptación y de ser una gran trabajadora en equipo.</p>
                 <div class="social-media">
 
                   <ul class="logos">
@@ -208,7 +202,7 @@
                         <i class="fas fa-envelope"></i></a>
                     </li>
                     <li>
-                      <a href="" title="ir a twitter de Marián de la Osa">
+                      <a href="https://twitter.com/MariandelaOsa" title="ir a twitter de Marián de la Osa">
                         <i class="fab fa-twitter"></i></a>
                     </li>
                   </ul>
@@ -217,7 +211,7 @@
             </article>
             <article>
               <div class="photos">
-                <img class="photo" src="images/recortadas/img_vir(recor).jpg" alt="fotovirginia" />
+                <img class="photo" src="./images/recortadas/img_vir(recor).jpg" alt="foto de perfil de Virginia Gomez" />
               </div>
               <div class="descriptions">
                 <h3 class="names">Virginia Gómez</h3>
@@ -229,7 +223,7 @@
                 <div class="social-media">
                   <ul class="logos">
                     <li>
-                      <a href="https://www.linkedin.com/in//VirginiaGomezR" title="ir a linkedin de Virginia Gómez">
+                      <a href="https://www.linkedin.com/in//virginiagomezR" title="ir a linkedin de Virginia Gómez">
                         <i class="fab fa-linkedin-in" title="linkedin"></i></a>
                     </li>
                     <li>
@@ -256,14 +250,13 @@
       <p>©2020 AdaWonders</p>
       <nav>
         <ul>
-          <li><a href="">Equipo</a></li>
-          <li><a href="">Quiénes somos</a></li>
-          <li><a href="">Contacto</a></li>
+          <li><a href="#team-title">EQUIPOS</a></li>
+          <li><a href="#members">QUIENES SOMOS</a></li>
+          <li><a href="#">CONTACTO</a></li>
         </ul>
       </nav>
-      <a href="https://adalab.es/"><img src="REVISAR" alt="logo Adalab" /></a>
+      <a href="https://adalab.es/"><img src="./images/logo-adalab.png" alt="logo Adalab" /></a>
     </footer>
   </div>
 </body>
-
 </html>
