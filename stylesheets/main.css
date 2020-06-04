@@ -14,7 +14,6 @@
   margin: auto;
   width: 100%;
   padding: 0px;
-  
 }
 
 :root {
@@ -31,13 +30,11 @@
   --secundary-font: "Open Sans", sans-serif;
 }
 
-
 /*BODY*/
 
 body {
   width: 100%;
 }
-
 
 /*HEADER*/
 
@@ -56,7 +53,7 @@ body {
 .header {
   font-family: var(--primary-font);
   position: relative;
-  opacity:0.95
+  opacity: 0.95;
 }
 .menu {
   color: var(--light-color);
@@ -79,8 +76,8 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   height: 100%;
-  margin:0px;
-  padding:15px;
+  margin: 0px;
+  padding: 15px;
 }
 
 .header-menu a {
@@ -98,12 +95,11 @@ body {
   padding: 0px;
 }
 
-
 /*HERO*/
 
 .hero img {
   width: 100%;
-  margin-top:-130px;
+  margin-top: -130px;
 }
 
 /*CLAIM*/
@@ -122,9 +118,8 @@ body {
   font-family: var(--secundary-font);
   font-size: 18px;
   font-weight: bold;
-  text-align:center; 
+  text-align: center;
 }
-
 
 /* strengths  y weaknesses */
 .team {
@@ -178,7 +173,6 @@ p {
   background-color: white;
   flex-direction: column;
 }
-
 
 /* CHICAS */
 
@@ -262,15 +256,14 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-top: 1px solid var(--paragraph-color); 
+  border-top: 1px solid var(--paragraph-color);
 }
 
 .logo {
   height: 45px;
   width: 115.9px;
-  margin-bottom:45px
+  margin-bottom: 45px;
 }
-  
 
 .imglogo {
   width: 100%;
@@ -294,8 +287,7 @@ p {
   font-size: 14px;
   margin-bottom: 20px;
   margin-top: 15px;
-  
-} 
+}
 
 /*MEDIA QUERIES*/
 
@@ -306,48 +298,48 @@ p {
     justify-content: space-between;
     align-items: center;
     background-color: var(--primary-color);
-    position:none;
+    position: none;
   }
-
   .team-name {
     width: 50%;
-    text-align: left;
-    padding-left: 50px;
-    
+    justify-content: left;
+    padding-left: 45px;
   }
-  
+
   .menu {
     width: 50%;
     display: inline-block;
     background-color: var(--primary-color);
   }
 
-  .header-menu{
+  .header-menu {
     background-color: var(--primary-color);
   }
 
-  .claim{
-    opacity:0.8;
+  .claim {
+    opacity: 0.8;
     max-width: 441px;
     transform: translate(0, -100%);
+    padding: 0px;
+    border: 1px solid blue;
   }
 
-  .claim p{
-    margin-top: auto;
-    text-align:left; 
+  .claim p {
+    text-align: left;
+    transform: translate(0%, 50%);
   }
 
-  .team-title{
+  .team-title {
     color: var(--primary-color);
-    margin-top:-50px ;
+    margin-top: -50px;
   }
-  .container{
+  .container {
     position: none;
     display: flex;
     flex-direction: row;
-       
   }
-  .strengths, .weaknesses{
+  .strengths,
+  .weaknesses {
     width: 50%;
     padding: 25px;
   }
@@ -358,16 +350,15 @@ p {
     align-items: flex-start;
   }
 
-  .copyright,.logo {
+  .copyright,
+  .logo {
     margin-left: 45px;
   }
-  
+
   .menu-footer {
     align-self: flex-end;
     order: 1;
     margin-top: -125px;
     margin-right: 45px;
-       
   }
 }
-
