@@ -194,8 +194,10 @@ p {
 }
 
 .photo {
+  border-radius: 4px;
   width: 180px;
   align-items: center;
+  border: solid 5px rgba(0, 0, 0, 0.08);
 }
 
 .names {
