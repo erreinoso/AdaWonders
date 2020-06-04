@@ -194,8 +194,10 @@ p {
 }
 
 .photo {
+  border-radius: 4px;
   width: 180px;
   align-items: center;
+  border: solid 5px rgba(0, 0, 0, 0.08);
 }
 
 .names {
@@ -300,11 +302,10 @@ p {
     background-color: var(--primary-color);
     position: none;
   }
-
   .team-name {
     width: 50%;
-    text-align: left;
-    padding-left: 50px;
+    justify-content: left;
+    padding-left: 45px;
   }
 
   .menu {
@@ -321,11 +322,13 @@ p {
     opacity: 0.8;
     max-width: 441px;
     transform: translate(0, -100%);
+    padding: 0px;
+    border: 1px solid blue;
   }
 
   .claim p {
-    margin-top: auto;
     text-align: left;
+    transform: translate(0%, 50%);
   }
 
   .team-title {
