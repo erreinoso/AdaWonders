@@ -349,3 +349,12 @@ template {
 [hidden] {
   display: none;
 }
+
+* {
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0px;
+  color: inherit;
+}
