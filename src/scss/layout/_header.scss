@@ -1,4 +1,6 @@
-.header-team {
+
+
+.header-team .wrapper {
   text-decoration: none;
   display: block;
   width: 100%;
@@ -8,8 +10,14 @@
   padding: 0px;
   margin: 0px;
   opacity: 0.95;
-
 }
+
+.ada-logo{
+
+ width: 40px;
+ transform: translate(-20px);
+}
+
 
 .header {
   font-family: $primary-font;
