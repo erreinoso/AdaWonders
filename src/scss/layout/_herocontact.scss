@@ -1,0 +1,17 @@
+.hero_contact {
+  width: 100%;
+  max-height: 300px;
+  border: 1px solir red;
+  background-image: src= "../../assets/images/wonderphone.jpg";
+}
+
+img {
+  max-height: 300px;
+}
+/*Mediaqueries*/
+@media all and (min-width: 768px) {
+  .hero__contact {
+    background-color: rgb(66, 156, 188);
+    background-image: src= "../../assets/images/wonderphone.jpg";
+  }
+}

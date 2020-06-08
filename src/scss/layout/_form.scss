@@ -1,26 +1,7 @@
-.wrapperhero {
-  text-align: left;
-  width: 100vw;
-  padding: 0px;
-  margin: 0px;
-}
-
-.hero,
-.body,
-.contactform {
+.form {
   padding: 15px;
 }
-
-.contactform {
-  font-family: $primary-font;
-  font-size: 16px;
-  text-align: center;
-  text-transform: initial;
-  display: inline-block;
-  width: 100vw;
-}
-
-h1 {
+.form h1 {
   color: $primary-color;
   text-transform: uppercase;
   font-size: 24px;
@@ -33,6 +14,12 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   height: 144px;
+  font-family: $primary-font;
+  font-size: 16px;
+  text-align: center;
+  text-transform: initial;
+  display: inline-block;
+  width: 100vw;
 }
 .contact__text--big {
   font-size: 16px;
@@ -48,40 +35,41 @@ h1 {
 
 .fas,
 .fab {
-  color: var(--secundary-color);
+  color: $secundary-color;
   font-size: 8px;
   transform: translate(0, -70%);
 }
 
-.form {
+form {
   display: block;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
   text-align: left;
-  font-family: var(--secundary-font);
+  font-family: $secundary-font;
 }
 
 label {
   display: inline-block;
   height: 45px;
   padding-top: 15px;
-  font-family: var(--secundary-font);
-  color: var(--paragraph-color);
+  font-family: $secundary-font;
+  color: $paragraph-color;
 }
+
 input {
   text-align: left;
   display: block;
   width: 100%;
   font-size: 14px;
-  border: 1px solid var(--copyright-color);
+  border: 1px solid $copyright-color;
   height: 45px;
-  font-family: var(--secundary-font);
-  color: var(--copyright-color);
+  font-family: $secundary-font;
+  color: $copyright-color;
 }
 
-.emailAddress {
-  color: var(--paragraph-color);
+#emailAddress {
+  color: $paragraph-color;
 }
 
 textarea {
@@ -89,8 +77,8 @@ textarea {
   display: block;
   width: 100%;
   font-size: 14px;
-  border: 1px solid var(--copyright-color);
-  font-family: var(--secundary-font);
+  border: 1px solid $copyright-color;
+  font-family: $secundary-font;
 }
 
 .buttom {
@@ -103,8 +91,8 @@ textarea {
   margin-left: auto;
   margin-right: auto;
   border-radius: 4px;
-  background-color: var(--primary-color);
-  color: var(--light-color);
+  background-color: $primary-color;
+  color: $light-color;
   text-transform: uppercase;
   padding: auto;
 }
