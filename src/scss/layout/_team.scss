@@ -11,7 +11,7 @@
 }
 
 .claim p {
-  font-family: var(--secundary-font);
+  font-family: $secundary-font;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
@@ -38,8 +38,8 @@ p {
 }
 
 .team-title {
-  color: var(--secondary-color);
-  font-family: var(--primary-font);
+  color: $secondary-color;
+  font-family: $primary-font;
   text-align: center;
   font-size: 24px;
   margin: 0px;
@@ -47,22 +47,23 @@ p {
 
 .strengths h3,
 .weaknesses h3 {
-  color: var(--primary-color);
+  color: $primary-color;
   text-align: center;
-  font-family: var(--primary-font);
+  font-family: $primary-font;
   padding-top: 30px;
   margin: 0px;
 }
 
 .team p {
-  color: var(--paragraph-color);
+  color: $paragraph-color;
   text-align: center;
-  font-family: var(--secundary-font);
+  font-family: $secundary-font;
 }
 
 .container {
   background-color: rgba(184, 184, 185, 0.2);
   position: relative;
+  padding-bottom: 10px;
 }
 
 .littlesquare {
@@ -85,7 +86,6 @@ p {
     max-width: 441px;
     transform: translate(0, -100%);
     padding: 0px;
-    /*border: 1px solid blue;*/
   }
 
   .claim p {
@@ -100,11 +100,9 @@ p {
     margin-top: 45px;
   }
   .team-title {
-    color: var(--primary-color);
-    /*margin-top: -50px;*/
+    color: $primary-color;
   }
   .container {
-    position: none;
     display: flex;
     flex-direction: row;
   }
@@ -112,5 +110,20 @@ p {
   .weaknesses {
     width: 50%;
     padding: 25px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .team-box {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 60px;
+  }
+
+  .strengths,
+  .weaknesses {
+    padding-top: 45px;
+    padding-bottom: 60px;
+    padding-left: 138px;
+    padding-right: 139px;
   }
 }
