@@ -1,12 +1,16 @@
 .form {
   padding: 15px;
-}
-.form h1 {
-  color: $primary-color;
-  text-transform: uppercase;
-  font-size: 24px;
-  font-family: $primary-font;
-  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h1 {
+    color: $primary-color;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: $primary-font;
+    font-weight: normal;
+    text-align: center;
+  }
 }
 
 .contact__text {
@@ -20,17 +24,17 @@
   text-transform: initial;
   display: inline-block;
   width: 100vw;
-}
-.contact__text--big {
-  font-size: 16px;
-  font-family: $secundary-font;
-  color: $paragraph-color;
-}
 
-.contact__text--small {
-  font-size: 12px;
-  font-family: $secundary-font;
-  color: $paragraph-color;
+  .contact__text--big {
+    font-size: 16px;
+    font-family: $secundary-font;
+    color: $paragraph-color;
+  }
+  .contact__text--small {
+    font-size: 12px;
+    font-family: $secundary-font;
+    color: $paragraph-color;
+  }
 }
 
 .fas,
@@ -66,6 +70,7 @@ input {
   height: 45px;
   font-family: $secundary-font;
   color: $copyright-color;
+  padding: 10px;
 }
 
 #emailAddress {
@@ -79,6 +84,7 @@ textarea {
   font-size: 14px;
   border: 1px solid $copyright-color;
   font-family: $secundary-font;
+  padding: 10px;
 }
 
 .buttom {
