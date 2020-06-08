@@ -1,20 +1,10 @@
-* {
-  box-sizing: border-box;
-  list-style-type: none;
-  text-decoration: none;
-  color: inherit;
-  flex-direction: column;
-  list-style-type: none;
-  padding: 0px;
-  border: 1px solid pink; /* temporal */
-  font-family: &primary-font;
-  font-size: 16px; /*REVISAR*/
-  text-align: center;
-}
-
-html {
-}
-
-h1 {
-  text-transform: uppercase;
-}
+@import "core/reset";
+@import "core/mixins";
+@import "core/variables";
+@import "layout/header";
+@import "layout/herocontact";
+@import "layout/form";
+@import "layout/page";
+@import "layout/footer";
+@import "components/links";
+@import "pages/index";
