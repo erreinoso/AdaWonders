@@ -1,23 +1,55 @@
 <section class="form">
-  <h1>contacto</h1>
-  <article class="contact__text">
-    <p class="contact__text--big">Si quieres saber más del equipo AdaWonders, rellena tus datos más abajo y nos
-      pondremos en contacto contigo lo
-      antes posible.</p>
-    <p class="contact__text--small">Todos los datos marcados con
-      <i class="fas fa-asterisk"></i> son obligatorios.</p>
-
-    <form action="https://formspree.io/xdowgjrn" method="post">
-      <label for="fullName">Nombre completo <i class="fas fa-asterisk"></i></label>
-      <input type="text" id="fullName" name="fullName" placeholder="Nombre..." />
-      <label for="emailAddress" id="emailAddress">Email<i class="fas fa-asterisk"></i></label>
-      <input type="email" id="emailAddress" name="emailAddress" placeholder="nombre.apellidos@mail.com" />
-      <label for="telephone">Teléfono</label>
-      <input type="tel" id="telephone" name="telephone" placeholder="Ej: 123456789" />
-      <label for="comments">Comentarios<i class="fas fa-asterisk"></i>:</label>
-      <textarea id="comments" name="comments" rows="8" cols="80" placeholder="¿Qué necesitas?"></textarea>
-      <input class="buttom" type="submit" value="Enviar" />
-
-    </form>
-  </article>
+  <div class="wrapper">
+    <h1>contacto</h1>
+    <article class="contact__text">
+      <p class="contact__text--big">
+        Si quieres saber más del equipo AdaWonders, rellena tus datos más abajo
+        y nos pondremos en contacto contigo lo antes posible.
+      </p>
+      <p class="contact__text--small">
+        Todos los datos marcados con <i class="fas fa-asterisk"></i> son
+        obligatorios.
+      </p>
+      <div class="form_box">
+        <form action="https://formspree.io/xdowgjrn" method="post">
+          <label for="fullName"
+            >Nombre completo <i class="fas fa-asterisk"></i
+          ></label>
+          <input
+            type="text"
+            id="fullName"
+            name="fullName"
+            placeholder="Nombre..."
+          />
+          <label for="emailAddress" id="emailAddress"
+            >Email<i class="fas fa-asterisk"></i
+          ></label>
+          <input
+            type="email"
+            id="emailAddress"
+            name="emailAddress"
+            placeholder="nombre.apellidos@mail.com"
+          />
+          <label for="telephone">Teléfono</label>
+          <input
+            type="tel"
+            id="telephone"
+            name="telephone"
+            placeholder="Ej: 123456789"
+          />
+          <label for="comments"
+            >Comentarios<i class="fas fa-asterisk"></i>:</label
+          >
+          <textarea
+            id="comments"
+            name="comments"
+            rows="8"
+            cols="80"
+            placeholder="¿Qué necesitas?"
+          ></textarea>
+          <input class="buttom" type="submit" value="Enviar" />
+        </form>
+      </div>
+    </article>
+  </div>
 </section>

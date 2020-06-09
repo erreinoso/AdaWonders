@@ -1,8 +1,10 @@
 .form {
-  padding: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
+  margin-bottom: 50px;
+
   h1 {
     color: $primary-color;
     text-transform: uppercase;
@@ -11,6 +13,11 @@
     font-weight: normal;
     text-align: center;
   }
+}
+
+.form_box {
+  width: 320px;
+  margin: auto;
 }
 
 .contact__text {
