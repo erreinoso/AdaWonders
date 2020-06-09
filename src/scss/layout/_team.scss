@@ -1,6 +1,6 @@
 /*CLAIM*/
 .claim {
-  background-color: white;
+  background-color: $light-color;
   position: relative;
   transform: translate(0, -50%);
   margin-left: 15px;
@@ -8,6 +8,19 @@
   padding: 15px;
   height: 80px;
   width: auto;
+
+  @media all and (min-width: 768px) {
+    position: absolute;
+    left: 0px;
+    background-color: rgba(256, 256, 256, 0.8);
+    max-width: 441px;
+    transform: translate(0, -100%);
+    padding: 0px;
+  }
+
+  @media all and (min-width: 1200px) {
+    margin-left: 138px;
+  }
 }
 
 .claim p {
@@ -15,12 +28,31 @@
   font-size: 18px;
   font-weight: bold;
   text-align: center;
+
+  @media all and (min-width: 768px) {
+    text-align: left;
+    transform: translate(0%, 50%);
+  }
 }
+
 .wrapper-team {
   margin-top: -50px;
+
+  @media all and (min-width: 768px) {
+    margin-top: -50px;
+  }
 }
 .team-box {
   padding: 0px;
+
+  @media all and (min-width: 768px) {
+    margin-top: 45px;
+    }
+  @media all and (min-width: 1200px) {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 60px;
+    }
 }
 
 /* strengths  y weaknesses */
@@ -43,6 +75,10 @@ p {
   text-align: center;
   font-size: 24px;
   margin: 0px;
+
+  @media all and (min-width: 768px) {
+    color: $primary-color;
+    }
 }
 
 .strengths h3,
@@ -64,6 +100,11 @@ p {
   background-color: rgba(184, 184, 185, 0.2);
   position: relative;
   padding-bottom: 10px;
+
+  @media all and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    }
 }
 
 .littlesquare {
@@ -79,33 +120,6 @@ p {
 
 /*Mediaqueries*/
 @media all and (min-width: 768px) {
-  .claim {
-    position: absolute;
-    left: 0px;
-    background-color: rgba(256, 256, 256, 0.8);
-    max-width: 441px;
-    transform: translate(0, -100%);
-    padding: 0px;
-  }
-
-  .claim p {
-    text-align: left;
-    transform: translate(0%, 50%);
-  }
-
-  .wrapper-team {
-    margin-top: -50px;
-  }
-  .team-box {
-    margin-top: 45px;
-  }
-  .team-title {
-    color: $primary-color;
-  }
-  .container {
-    display: flex;
-    flex-direction: row;
-  }
   .strengths,
   .weaknesses {
     width: 50%;
@@ -113,12 +127,6 @@ p {
   }
 }
 @media all and (min-width: 1200px) {
-  .team-box {
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-bottom: 60px;
-  }
-
   .strengths,
   .weaknesses {
     padding-top: 45px;
