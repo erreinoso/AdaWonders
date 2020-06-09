@@ -1,54 +1,62 @@
-.header-team {
+body {
+  font-size: 16px;
+}
+
+.header-team .wrapper {
   text-decoration: none;
   display: block;
   width: 100%;
   justify-content: center;
-  background-color: var(--primary-color);
-  color: var(--light-color);
-  padding: 0px;
-  margin: 0px;
+  background-color: $primary-color;
+  color: $light-color;
+  padding: 0;
+  margin: 0;
   opacity: 0.95;
 }
 
+.ada-logo {
+  width: 2.5rem;
+}
+
 .header {
-  font-family: var(--primary-font);
+  font-family: $primary-font;
   position: relative;
   opacity: 0.95;
 }
 .menu {
-  color: var(--light-color);
-  background-color: var(--secondary-color);
+  color: $light-color;
+  background-color: $secundary-color;
 }
 
 .team-name {
-  background-color: var(--primary-color);
-  color: var(--light-color);
+  background-color: $primary-color;
+  color: $light-color;
   display: flex;
-  height: 65px;
+  height: 4.063rem;
   width: 100%;
   justify-content: center;
   align-items: center;
 }
 
 .header-menu {
-  color: var(--light-color);
+  color: $light-color;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   height: 100%;
   margin: 0px;
-  padding: 15px;
+  padding: 0.9375rem;
 }
 
 .header-menu a {
-  font-family: var(--primary-font);
+  font-family: $primary-font;
   padding: 0px;
-  color: var(--light-color);
+  color: $light-color;
   display: flex;
 }
 
 .header-menu li {
-  color: var(--light-color);
+  color: $light-color;
   display: flex;
   justify-content: center;
   margin: 0px;
@@ -62,22 +70,22 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--primary-color);
+    background-color: $primary-color;
     position: none;
   }
   .team-name {
     width: 50%;
     justify-content: left;
-    padding-left: 45px;
+    padding-left: 2.813rem;
   }
 
   .menu {
     width: 100%;
     display: inline-block;
-    background-color: var(--primary-color);
+    background-color: $primary-color;
   }
 
   .header-menu {
-    background-color: var(--primary-color);
+    background-color: $primary-color;
   }
 }
