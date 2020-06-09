@@ -45,7 +45,8 @@
 }
 
 form .fas,
-form .fab {
+form .fab,
+p .fas {
   color: $secundary-color;
   font-size: 8px;
   transform: translate(0, -70%);
@@ -108,4 +109,8 @@ textarea {
   color: $light-color;
   text-transform: uppercase;
   padding: auto;
+  transition: color ease 1s;
+  &:hover {
+    background-color: $paragraph-color;
+  }
 }
