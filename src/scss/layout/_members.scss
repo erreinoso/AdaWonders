@@ -15,13 +15,12 @@
 
     @media all and (min-width: 768px) {
       height: 205px;
-      width: 205px;
-      padding-top: 4px;
+      min-width: 205px;
     }
 
     @media all and (min-width: 1200px) {
       height: 278px;
-      width: 278px;
+      min-width: 278px;
     }
 
     &--photo {

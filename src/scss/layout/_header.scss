@@ -26,6 +26,7 @@ body {
 .menu {
   color: $light-color;
   background-color: $secundary-color;
+  font-size: 15px;
 }
 
 .team-name {
@@ -73,10 +74,21 @@ body {
     background-color: $primary-color;
     position: none;
   }
+
+  .header-menu li {
+    padding-right: 30px;
+  }
+
   .team-name {
     width: 50%;
     justify-content: left;
     padding-left: 2.813rem;
+  }
+
+  .header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .menu {
@@ -87,5 +99,6 @@ body {
 
   .header-menu {
     background-color: $primary-color;
+    justify-content: flex-end;
   }
 }

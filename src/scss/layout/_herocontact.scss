@@ -7,16 +7,16 @@
   padding: 0;
 
   .hero--contact {
-    width: 320px;
     padding: 0;
-    display: flex;
+    border: 2px solid red;
 
-    .phone {
-      max-height: 300px;
-      width: 100%;
+    /*REVISAR MAL*/
+    @media all and (min-width: 1200px) {
+      height: 400px;
+      width: 1200px;
     }
-    .tablet {
-      display: none;
+    .phone {
+      width: 100%;
     }
   }
 }
@@ -37,16 +37,6 @@
       border: 1px solid green;
       flex-direction: row;
       justify-content: center;
-
-      .phone {
-        display: none;
-      }
-      .tablet {
-        width: 100%;
-        align-self: center;
-        border: 1px solid blue;
-        display: block;
-      }
     }
   }
 }

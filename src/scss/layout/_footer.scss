@@ -3,6 +3,12 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  max-width: 1200px;
+  min-width: 320px;
+  margin: auto;
+  width: 100%;
+  padding: 0px;
+
   @media all and (min-width: 768px) {
     justify-content: flex-start;
     align-items: flex-start;
@@ -27,6 +33,7 @@
 
 .footer__menu {
   margin-bottom: 15px;
+  font-size: 15px;
   @media all and (min-width: 768px) {
     align-self: flex-end;
     order: 1;

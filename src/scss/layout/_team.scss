@@ -10,7 +10,6 @@
   width: auto;
 
   @media all and (min-width: 768px) {
-    position: absolute;
     left: 0px;
     background-color: rgba(256, 256, 256, 0.8);
     max-width: 441px;
@@ -37,6 +36,11 @@
 
 .wrapper-team {
   margin-top: -50px;
+  max-width: 1200px;
+  min-width: 320px;
+  margin: auto;
+  width: 100%;
+  padding: 0px;
 
   @media all and (min-width: 768px) {
     margin-top: -50px;
@@ -45,14 +49,11 @@
 .team-box {
   padding: 0px;
 
-  @media all and (min-width: 768px) {
-    margin-top: 45px;
-    }
   @media all and (min-width: 1200px) {
     margin-left: 300px;
     margin-right: 300px;
     margin-bottom: 60px;
-    }
+  }
 }
 
 /* strengths  y weaknesses */
@@ -78,7 +79,7 @@ p {
 
   @media all and (min-width: 768px) {
     color: $primary-color;
-    }
+  }
 }
 
 .strengths h3,
@@ -104,7 +105,7 @@ p {
   @media all and (min-width: 768px) {
     display: flex;
     flex-direction: row;
-    }
+  }
 }
 
 .littlesquare {
