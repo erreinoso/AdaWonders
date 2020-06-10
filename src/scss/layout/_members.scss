@@ -1,4 +1,8 @@
 .members {
+  margin-bottom: 63px;
+  margin-left: 45px;
+  margin-right: 45px;
+
   &__whoweare {
     font-family: "Rubik", sans-serif;
     color: $primary-color;
@@ -101,6 +105,10 @@
         p {
           margin: 0;
           padding: 0;
+
+          @media all and (min-width:1200px){
+            margin-right: 100px;
+          }
         }
       }
       .members__socialmedia {
@@ -128,6 +136,10 @@
         p {
           margin: 0;
           padding: 0;
+
+          @media all and (min-width:1200px){
+            margin-left: 100px;
+          }
         }
         .members__socialmedia {
           align-self: flex-end;
