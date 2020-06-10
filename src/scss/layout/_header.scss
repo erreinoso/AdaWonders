@@ -7,9 +7,11 @@ body {
   display: block;
   width: 100%;
   justify-content: center;
+  background-color: $primary-color;
   color: $light-color;
   padding: 0;
   margin: 0;
+  opacity: 0.95;
 }
 
 .ada-logo {
@@ -19,16 +21,16 @@ body {
 .header {
   font-family: $primary-font;
   position: relative;
-  background-color: rgba(9, 157, 141, 0.8);
-  z-index: 1;
+  opacity: 0.95;
 }
 .menu {
   color: $light-color;
-  background-color: rgba(20, 217, 196, 0.8);
+  background-color: $secundary-color;
   font-size: 15px;
 }
 
 .team-name {
+  background-color: $primary-color;
   color: $light-color;
   display: flex;
   height: 4.063rem;
@@ -69,6 +71,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: $primary-color;
     position: none;
   }
 
@@ -91,10 +94,11 @@ body {
   .menu {
     width: 100%;
     display: inline-block;
-    background-color: inherit;
+    background-color: $primary-color;
   }
 
   .header-menu {
+    background-color: $primary-color;
     justify-content: flex-end;
   }
 }
