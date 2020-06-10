@@ -3,13 +3,11 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 0;
   padding: 0;
 
   .hero--contact {
     padding: 0;
     overflow: hidden;
-    border: 2px solid red;
 
     /*REVISAR MAL*/
     @media all and (min-width: 678px) {
