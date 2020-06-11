@@ -4,16 +4,13 @@
   border-top: 1px solid $paragraph-color;
 }
 .wrapper__footer {
-  max-width: 1200px;
-  min-width: 320px;
-  margin: auto;
-  width: 100%;
-  padding: 0px;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: 30% 40% 30%;
-  grid-template-areas: "copyright" "menu" "logo";
-  grid-auto-flow: column;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  @media all and (min-width: 768px) {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
 
   @media all and (min-width: 768px) {
     justify-content: flex-start;
