@@ -1,47 +1,15 @@
-.section__hero .wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  padding: 0;
+.section__hero {
+  height: 300px;
+  width:100%;
+  margin-bottom:0px;
+  background-image: url("../../assets/images/background-contact.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 
-  .hero--contact {
-    padding: 0;
-    overflow: hidden;
-    border: 2px solid red;
 
-    /*REVISAR MAL*/
-    @media all and (min-width: 678px) {
-      height: 500px;
-      width: 100%;
-    }
-    @media all and (min-width: 1200px) {
-      height: 700px;
-      width: 100%;
-    }
-    .phone {
-      width: 100%;
-    }
-  }
-}
-
-/*Mediaqueries*/
-@media all and (min-width: 768px) {
-  .section__hero {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin: 0;
-    padding: 0;
-
-    .hero--contact {
-      background-color: rgb(256, 256, 256);
-      width: 100%;
-      height: 300px;
-      border: 1px solid green;
-      flex-direction: row;
-      justify-content: center;
-    }
+  @media all and (min-width:768px){
+    margin-bottom: 45px;
+    margin-top: 45px;
   }
 }

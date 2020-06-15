@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
 
 # Adalab web starter kit
@@ -120,3 +121,10 @@ src
 ## Falta algo?
 
 Echas de menos que el kit haga algo en concreto? Pidelo sin problema a través de las issues o si te animas a mejorarlo mándanos un PR :)
+=======
+Gracias por visitar el repositorio del equipo Adawonder. Las componentes del equipo decidieron despegar como desarrolladoras para hacer de tu marca algo extraordinario. Te invitamos a visitar nuestra web y a escudriñar cómo está realizada.
+
+![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
+
+Hemos empleado el "Adalab web starter kit". Este Kit incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local y muchas cosas más.
+>>>>>>> da5d52bd5b660321720b9e2ad046c67f5d1ab316
