@@ -13,41 +13,14 @@
     </article>
     <div class="form_box">
       <form action="https://formspree.io/xdowgjrn" method="post">
-        <label for="fullName"
-          >Nombre completo <i class="fas fa-asterisk"></i
-        ></label>
-        <input
-          type="text"
-          id="fullName"
-          name="fullName"
-          placeholder="Nombre..."
-        />
-        <label for="emailAddress" id="emailAddress"
-          >Email<i class="fas fa-asterisk"></i
-        ></label>
-        <input
-          type="email"
-          id="emailAddress"
-          name="emailAddress"
-          placeholder="nombre.apellidos@mail.com"
-        />
+        <label for="fullName">Nombre completo <i class="fas fa-asterisk"></i></label>
+        <input type="text" id="fullName" name="fullName" placeholder="Nombre..." required />
+        <label for="emailAddress" id="emailAddress">Email<i class="fas fa-asterisk"></i></label>
+        <input type="email" id="emailAddress" name="emailAddress" placeholder="nombre.apellidos@mail.com" required />
         <label for="telephone">Teléfono</label>
-        <input
-          type="tel"
-          id="telephone"
-          name="telephone"
-          placeholder="Ej: 123456789"
-        />
-        <label for="comments"
-          >Comentarios<i class="fas fa-asterisk"></i>:</label
-        >
-        <textarea
-          id="comments"
-          name="comments"
-          rows="8"
-          cols="80"
-          placeholder="¿Qué necesitas?"
-        ></textarea>
+        <input type="tel" id="telephone" name="telephone" placeholder="Ej: 123456789" />
+        <label for="comments">Comentarios<i class="fas fa-asterisk"></i>:</label>
+        <textarea id="comments" name="comments" rows="8" cols="80" placeholder="¿Qué necesitas?" required></textarea>
         <input class="buttom" type="submit" value="Enviar" />
       </form>
     </div>
