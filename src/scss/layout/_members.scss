@@ -56,13 +56,12 @@
   }
 
   &__socialmedia {
-    height: auto;
+    height: 30px;
     width: 200px;
     justify-content: space-around;
     align-self: center;
     text-align: center;
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 
     li:not(:last-child):after {
       content: " · ";
