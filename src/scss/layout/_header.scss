@@ -90,7 +90,7 @@ body {
 
   input:checked ~ span:nth-last-child(3) {
     opacity:1;
-   transform: rotate(45deg) translate(0, -1px);
+   transform: rotate(45deg) translate(-1px, -1px);
   }
 }
 
