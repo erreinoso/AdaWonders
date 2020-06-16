@@ -36,24 +36,76 @@ body {
   width: 2.5rem;
 }
 
+
 .hamburguer {
-  display: inline-block;
-  width:30px;
-  height: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 31px;
+  top: 17px;
+  right: 15px;
   position: absolute;
-  z-index: 2;
-  background-color: $secundary-color;
-  
-  
- span{
-   width: 30px;
-   height: 4px;
-   border-radius: 4px;
-   display: block;
-   position: relative;
-   z-index:3;
-   color: $primary-color;
+  background-color: $primary-color;
+  justify-content: space-evenly;
+   
+  .checkbox{
+    display:block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: 0;
+    right: -6px;
+    opacity: 0; 
+    z-index: 2;  
+    cursor: pointer;
   }
+    
+  span {
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    display: block;
+    position: relative;
+    background: $light-color;
+    transform-origin: 4px 0px;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0); 
+  }
+
+  span:nth-last-child(3) {
+    transform-origin: 0% 100%;
+  }
+
+  span:nth-last-child(2) {
+    transform-origin: 0% 0%;
+  }
+
+  input:checked ~ span {
+   opacity: 1;
+   transform: rotate(-45deg) translate(-2px, -1px);
+  }
+
+  input:checked ~ span:nth-last-child(2) {
+   opacity: 0;
+   transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  input:checked ~ span:nth-last-child(3) {
+    opacity:1;
+   transform: rotate(45deg) translate(0, -1px);
+  }
+}
+
+.checkbox{
+  display:block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: 17px;
+  right: 11px;
+  // opacity: 0; 
+  z-index: 2;  
+  cursor: pointer;
+  
+  
 }
 
 .menu {
@@ -87,13 +139,6 @@ body {
     }  
   }
 }
-// .header-menu li {
-//   color: $light-color;
-//   display: flex;
-//   justify-content: center;
-//   margin: 0px;
-//   padding: 0px;
-// }
 
 /*MEDIAQUERIES*/
 @media all and (min-width: 768px) {
