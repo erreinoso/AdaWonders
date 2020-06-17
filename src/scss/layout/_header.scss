@@ -1,105 +1,3 @@
-<<<<<<< HEAD
-body {
-  font-size: 16px;
-}
-
-.header-team .wrapper {
-  text-decoration: none;
-  display: block;
-  width: 100%;
-  justify-content: center;
-  color: $light-color;
-  padding: 0;
-  margin: 0;
-}
-
-.ada-logo {
-  width: 2.5rem;
-}
-
-.header {
-  font-family: $primary-font;
-  position: relative;
-  background-color: rgba(9, 157, 141, 0.8);
-  z-index: 1;
-}
-.menu {
-  color: $light-color;
-  background-color: rgba(20, 217, 196, 0.8);
-  font-size: 15px;
-}
-
-.team-name {
-  color: $light-color;
-  display: flex;
-  height: 4.063rem;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-}
-
-.header-menu {
-  color: $light-color;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  height: 100%;
-  margin: 0px;
-  padding: 0.9375rem;
-}
-
-.header-menu a {
-  font-family: $primary-font;
-  padding: 0px;
-  color: $light-color;
-  display: flex;
-}
-
-.header-menu li {
-  color: $light-color;
-  display: flex;
-  justify-content: center;
-  margin: 0px;
-  padding: 0px;
-}
-
-/*MEDIAQUERIES*/
-@media all and (min-width: 768px) {
-  .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: none;
-  }
-
-  .header-menu li {
-    padding-right: 30px;
-  }
-
-  .team-name {
-    width: 50%;
-    justify-content: left;
-    padding-left: 2.813rem;
-  }
-
-  .header .wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .menu {
-    width: 100%;
-    display: inline-block;
-    background-color: inherit;
-  }
-
-  .header-menu {
-    justify-content: flex-end;
-  }
-}
-=======
 body {
   font-size: 16px;
 }
@@ -121,6 +19,7 @@ body {
 .header {
   font-family: $primary-font;
   position: fixed;
+  top: 0;
   width: 100%;
   background-color: rgba(9, 157, 141, 0.8);
   z-index: 1;
@@ -201,4 +100,3 @@ body {
     justify-content: flex-end;
   }
 }
->>>>>>> 17c1a003d08eebb8e4b43ec9e8f5d635c5b7a45d
