@@ -41,6 +41,7 @@ body {
   border: 2px green solid;
   display: flex;
   flex-direction: column;
+  width: 31px;
   height: 31px;  
   top: 17px;
   right: 15px;
@@ -51,11 +52,11 @@ body {
   .checkbox{
     border: 2px blue($color: #000000) solid;
     display:block;
-    width: 40px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
     position: absolute;
     top: 0;
-    right: -6px;
+    right: -1px;
     opacity: 0; 
     z-index: 2;  
     cursor: pointer;
@@ -63,7 +64,7 @@ body {
     
   span {
     border: 2px yellow solid;
-    width: 30px;
+    width: 26px;
     height: 4px;
     border-radius: 3px;
     display: block;
@@ -71,7 +72,7 @@ body {
     background: $light-color;
     z-index: 1;
     transform-origin: 4px 0px;
-    transition: transform 4s cubic-bezier(0.77,0.2,0.05,1.0); 
+    transition: transform 0.8s cubic-bezier(0.77,0.2,0.05,1.0); 
   }
 
   span:nth-last-child(3) {
@@ -114,6 +115,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    width: 200px;
     height: 100%;
     margin: 0px;
     padding: 0.9375rem;
