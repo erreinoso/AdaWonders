@@ -3,7 +3,7 @@
   background-color: $light-color;
   position: relative;
   transform: translate(0, 30%);
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 15px;
@@ -18,12 +18,11 @@
     max-width: 441px;
     transform: translateY(-20px);
     padding: 0px;
-    
   }
 
   @media all and (min-width: 1200px) {
     margin-left: 138px;
-    transform: translateY(35px);
+    transform: translateY(-3px);
   }
 }
 
@@ -34,7 +33,7 @@
   text-align: center;
 
   @media all and (min-width: 768px) {
-    text-align: left;   
+    text-align: left;
   }
 }
 
@@ -46,7 +45,6 @@
   padding: 0px;
 
   @media all and (min-width: 768px) {
-    
   }
 }
 .team-box {
@@ -55,7 +53,6 @@
   @media all and (min-width: 1200px) {
     margin-left: 300px;
     margin-right: 300px;
-    
   }
 }
 

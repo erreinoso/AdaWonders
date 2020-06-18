@@ -12,8 +12,20 @@ body {
   margin: 0;
 }
 
+@keyframes intro {
+  from {
+    transform: scale(3) rotate(-150deg);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
 .ada-logo {
   width: 2.5rem;
+  animation-name: intro;
+  animation-duration: 2s;
 }
 
 .header {
