@@ -16,7 +16,7 @@ Contact forma and page
 
 All the design and pages are responsive and addaptable to all screen sizes.
 
-![video of responsive view ](https://github.com/erreinoso/AdaWonders/blob/master/readme-images/responsiveweb.gif)
+![video of responsive view ](https://github.com/erreinoso/AdaWonders/blob/master/readme-images/responsive-web.gif)
 
 **- Requirements**
 
