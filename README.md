@@ -7,13 +7,16 @@ The goal was to create a responsive website with information about our team and 
 If you want to know more about us and about what we do please visit our [team's website](http://beta.adalab.es/Project-Promo-J-Modulo-1-Team-6/index.html#team-title).
 
 Main page
+
 ![gif of desktop view ](https://github.com/erreinoso/AdaWonders/blob/master/readme-images/desktopweb.gif)
 
 Contact forma and page
+
 ![gif of desktop view ](https://github.com/erreinoso/AdaWonders/blob/master/readme-images/contactpage.gif)
 
-All the design and pages are responsive.
-![video of responsive view ](https://github.com/erreinoso/AdaWonders/blob/master/readme-images/responsiveweb.webm)
+All the design and pages are responsive and addaptable to all screen sizes.
+
+![video of responsive view ](https://github.com/erreinoso/AdaWonders/blob/master/readme-images/responsiveweb.gif)
 
 **- Requirements**
 
