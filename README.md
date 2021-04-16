@@ -22,7 +22,7 @@ All the design and pages are responsive and addaptable to all screen sizes.
 
 The project consists of:
 
-- A main page of the website had to be structured by header, hero, section 'about us', section 'stergths and weaknesses', section with individual infomation and footer.
+- A main page of the website had to be structured by header, hero, section 'about us', section 'strengths and weaknesses', section with individual infomation and footer.
 
 - A contact page of the website contains a form with mandatory fields to fill, with the option to return to the main page and navigate trougth the sections of the web.
 
